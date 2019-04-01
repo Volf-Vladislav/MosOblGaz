@@ -60,12 +60,6 @@ html {
     }
     [type="button"] {
         margin: 5px;
-        width: 80px;
-        height: 35px;
-        border: 2px solid #074667;
-        font-size: 20px;
-        border-radius: 5px;
-        color: #81b1c3;
     }
     [type="text"] {
         width: 200px;
