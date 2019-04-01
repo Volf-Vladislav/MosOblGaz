@@ -38,7 +38,7 @@ html {
     text-align: center;
 }
 [type="button"] {
-    margin: 5px -175px 0 auto;;
+    margin: 5px -175px 0 auto;
     width: 80px;
     height: 35px;
     border: 2px solid #074667;
@@ -48,12 +48,29 @@ html {
     color: #81b1c3;
 }
 @media screen and (max-width: 768px) {
+    html {
+    }
     .Logo img:first-child {
         display: none;
     }
     .Logo img:last-child {
-        display: block;
-        width: 100px;
-        margin: auto;
+        display:inline;
+        width: 50%;
+        text-align: center;
+    }
+    [type="button"] {
+        margin: 5px;
+        width: 80px;
+        height: 35px;
+        border: 2px solid #074667;
+        font-size: 20px;
+        border-radius: 5px;
+        color: #81b1c3;
+    }
+    [type="text"] {
+        width: 200px;
+    }
+    [type="password"] {
+        width: 200px;
     }
 }
