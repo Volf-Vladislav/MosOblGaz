@@ -1,0 +1,59 @@
+ * {
+     margin: 0;
+     padding: 0;
+     background-color: #fff;
+}
+html {
+    width: 50%;
+    margin: auto; 
+    text-align: center;
+}
+.Logo {
+    margin: 50px 0 0 0;
+}
+.Logo img:first-child {
+    width: 50%;
+}
+.Logo img:last-child {
+    display: none;
+}
+.Form {
+    margin: 100px 0 0 0;
+}
+[type="text"] {
+    width: 250px;
+    height: 35px;
+    border: 2px solid #074667;
+    font-size: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+[type="password"] {
+    margin: 32px 0 0 0;
+    width: 250px;
+    height: 35px;
+    border: 2px solid #074667;
+    font-size: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+[type="button"] {
+    margin: 5px -175px 0 auto;;
+    width: 80px;
+    height: 35px;
+    border: 2px solid #074667;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: #81b1c3;
+}
+@media screen and (max-width: 768px) {
+    .Logo img:first-child {
+        display: none;
+    }
+    .Logo img:last-child {
+        display: block;
+        width: 100px;
+        margin: auto;
+    }
+}
