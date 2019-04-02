@@ -36,7 +36,7 @@ html {
     width: 250px;
     border-radius: 20px;
 }
-[type="button"] {
+[type="submit"] {
     margin: 5px -175px 0 auto;
     width: 80px;
     border-radius: 5px;
@@ -53,7 +53,7 @@ html {
         width: 50%;
         text-align: center;
     }
-    [type="button"] {
+    [type="submit"] {
         margin: 5px;
     }
     [type="text"] {
