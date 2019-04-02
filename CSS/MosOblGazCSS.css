@@ -41,6 +41,7 @@ html {
     width: 80px;
     border-radius: 5px;
     text-align: center;
+    color: #81b1c3;
 }
 @media screen and (max-width: 768px) {
     html {
